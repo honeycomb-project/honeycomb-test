@@ -27,7 +27,6 @@ build-aux/compile
 build-aux/test-driver
 config.log
 config.status
-libtool
 src/config/bitcoin-config.h
 src/config/bitcoin-config.h.in
 src/config/stamp-h1
@@ -43,7 +42,6 @@ src/qt/forms/ui_*.h
 src/qt/test/moc*.cpp
 
 .dirstamp
-.libs
 .*.swp
 *.*~*
 *.bak
@@ -63,12 +61,8 @@ src/qt/test/moc*.cpp
 *.json.h
 *.raw.h
 
-#libtool object files
-*.lo
-*.la
 
 # Compilation and Qt preprocessor part
-*.qm
 honeycomb-qt
 Honeycomb-Qt.app
 
