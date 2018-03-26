@@ -73,11 +73,7 @@ honeycomb-qt
 Honeycomb-Qt.app
 
 # Unit-tests
-Makefile.test
 honeycomb-qt_test
-
-# Resources cpp
-qrc_*.cpp
 
 # Mac specific
 .DS_Store
@@ -90,17 +86,3 @@ build
 test_honeycomb.coverage/
 total.coverage/
 coverage_percent.txt
-
-#build tests
-linux-coverage-build
-linux-build
-win32-build
-test/config.ini
-test/cache/*
-
-!src/leveldb*/Makefile
-
-/doc/doxygen/
-
-libbitcoinconsensus.pc
-contrib/devtools/split-debug.sh
